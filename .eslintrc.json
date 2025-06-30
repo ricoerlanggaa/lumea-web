@@ -4,7 +4,8 @@
     "airbnb",
     "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@next/next/recommended"
+    "plugin:@next/next/recommended",
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "import"],
