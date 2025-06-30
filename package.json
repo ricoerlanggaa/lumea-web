@@ -14,10 +14,13 @@
     "format": "prettier . --write --ignore-path .gitignore --ignore-unknown"
   },
   "dependencies": {
+    "@hookform/resolvers": "5.1.1",
     "@tanstack/react-query": "5.81.5",
     "next": "15.3.4",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "react-hook-form": "7.59.0",
+    "yup": "1.6.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "15.3.4",
