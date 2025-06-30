@@ -3,6 +3,7 @@
   "extends": [
     "airbnb",
     "airbnb/hooks",
+    "plugin:@tanstack/query/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@next/next/recommended",
     "plugin:prettier/recommended"
@@ -23,6 +24,16 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
-    "import/no-unresolved": "error"
+    "import/no-unresolved": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
   }
 }
